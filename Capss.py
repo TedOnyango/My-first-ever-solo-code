@@ -2,8 +2,9 @@ def is_uppercase(x):
     words = x.split("_")
     for word in words:
         if word == word.upper():
-            return True
+            print(True)
         else:
-            return False
+            print(False)
 
-(is_uppercase("AM dONALD"))
+
+
