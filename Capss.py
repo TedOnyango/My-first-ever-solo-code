@@ -1,10 +1,12 @@
-def is_uppercase(x):
-    words = x.split("_")
-    for word in words:
-        if word == word.upper():
-            print(True)
-        else:
-            print(False)
+def is_uppercase(string):
+    if string == string.upper():
+        return True
+    else: 
+        return False 
+
+
+
+    
 
 
 
